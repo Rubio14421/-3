@@ -22,7 +22,6 @@ function showMessage(response) {
       // Update text content and hide name message
       document.getElementById("question").textContent =
         "Ok Inês.";
-      document.getElementById("question").element.style.color = "red";
       document.getElementById("name").style.display = "none";
   
       // Optional: You can also add a timeout to reset the position after a few seconds
